@@ -1,5 +1,32 @@
 # Elite VR Software Manual
 
+| Index                                                                  |
+| ---------------------------------------------------------------------- |
+| [High Level Architecture](#high-level-architecture)                    |
+| [Emulator](#emulator)                                                  |
+| [Compiling the Emulator](#compiling-the-elite-vr-custom-beebem-fork)   |
+| [Running the Emulator (Standalone)](#running-the-elite-vr-beebem-fork) |
+| [Custom Emulator Debug Commands](#custom-debug-commands)               |
+| [Custom Emulator Configuration](#custom-configuration)                 |
+| [Using Debug Commands to Load Elite](#use-debug-command-to-load-game)  |
+| [Controlling the Emulator](#controlling-the-emulator)                  |
+| [Extracting Data from the Emulator Memory](#extracting-data)           |
+| [Writing Data to the Emulator Memory](#writing-data)                   |
+| [Simulating Emulator Input](#simulating-input)                         |
+| [Sending Data from the Emulator](#sending-data)                        |
+| [The Transport Layer](#transport-layer)                                |
+| [Unity Project](#unity)                                                |
+| [Running the Game In Editor](#running-the-game-in-editor)              |
+| [Building the Unity project](#building-elite-vr)                       |
+| [Running Elite VR](#running-elite-vr)                                  |
+| [Emulator Display Passthrough](#emulator-display-passthrough)          |
+| [Scenes](#scenes)                                                      |
+| [Scene Transitions](#scene-transitions)                                |
+| [Utility Scripts](#other-utility-scripts)                              |
+| [Miscellaneous Notes](#miscellaneous-notes)                            |
+
+
+
 ## High Level Architecture
 There are 3 core components handled within Elite VR: 
 -	Emulation 
@@ -240,31 +267,6 @@ The ENet Server is configured with 11 Channels (0-10 inclusive), listening on lo
 The Transport layer organises data routing through the use of channels, the specific protocol and channel map can be found [here](/Documentation/Manuals/Transport-Layer-Protocol.md)
 
 ## Unity
-### Core Functionality Class Diagram
-![Unity Class Diagram](/Assets/Images/Software-Manual/UnityRelationships.png)
-
-The Unity project has an `ENet Client` which utilises the data received from the `ENet Server` to update Unity `GameObjects` using `Managers` in the `GameObject` parents which in turn route the data to the relevant individual `Updaters`. The design in general follows the mediator pattern where applicable due to the number of `GameObjects` that require control, providing a single point interface to all 40 ships (20 in game and 20 on minimap display).
-
-### Emulator Display Passthrough
-Elite VR obtains a screen capture of the BeebEm window by utilising the `uWindowCapture` plugin. By attaching a `uWindowManager` to any game object in a scene and a `uWindowTexture` to the desired display plane, capture of windows can be texture mapped in game. Elite VR searches for a window containing the text “BBC” in the title to automatically detect the BeebEm window. The repository and full documentation can be found [here](https://github.com/hecomi/uWindowCapture), however the guides are written in Japanese so a translator will need to be used. 
-
-### Scenes
-The Game itself is split into 2 scenes, the `Home` scene which acts as the introduction and built in tutorial to the game, followed by the `Immersed` scene which handles the gameplay.
-
-### Scene Transitions
-To change scenes, call the `EnterImmersed()` method in the `Trigger_Game_Start` class. By default, this is tied to a callback which occurs after the introduction sequence is complete (touching the floating Elite logo).
-
-When changing scenes, all objects in the current scene will be deleted. If developers wish for an object to persist to the next scene, the `Dont_Destroy_On_Load` script can simply be attached to the desired `GameObject` and it will be carried through to the next scene.
-
-### Other Utility Scripts
-For simplicity, some basic scripts have been created for simple and frequently used operations. These scripts simply need to be attached to the GameObject a developer wishes to have the property applied to:
-
--	`Make_Transparent`: Reduces the alpha channel of the `GameObject`’s material to a desired value 
--	`Respawnable`: Resets a `GameObject`’s position if it exceeds provided limits
--	`Flash_Object`: Makes a GameObject flash at a provided interval
--	`Flash_Text`: Makes text flash at a provided interval
--	`Rotator`: Rotates a `GameObject` at a completely parameterised rate on all 3 Euler angles
-
 ### Running the Game in Editor
 To maximise iteration speed, the `Start_BeebEm` script automatically opens the custom BeebEm fork whenever the editor is run. Additionally, when the editor is stopped, the BeebEm process will be terminated.
 	
@@ -297,6 +299,31 @@ Due to the architecture, it is not possible to start the game from the immersed 
 - Run the `StartEliteVR.bat` script to start the emulator and unity project simultaneously
 
 When you first run the project, you will be prompted to allow network access and BeebEm to copy some files to your Documents directory. Accept both pop-ups for correct behaviour.
+
+### Core Functionality Class Diagram
+![Unity Class Diagram](/Assets/Images/Software-Manual/UnityRelationships.png)
+
+The Unity project has an `ENet Client` which utilises the data received from the `ENet Server` to update Unity `GameObjects` using `Managers` in the `GameObject` parents which in turn route the data to the relevant individual `Updaters`. The design in general follows the mediator pattern where applicable due to the number of `GameObjects` that require control, providing a single point interface to all 40 ships (20 in game and 20 on minimap display).
+
+### Emulator Display Passthrough
+Elite VR obtains a screen capture of the BeebEm window by utilising the `uWindowCapture` plugin. By attaching a `uWindowManager` to any game object in a scene and a `uWindowTexture` to the desired display plane, capture of windows can be texture mapped in game. Elite VR searches for a window containing the text “BBC” in the title to automatically detect the BeebEm window. The repository and full documentation can be found [here](https://github.com/hecomi/uWindowCapture), however the guides are written in Japanese so a translator will need to be used. 
+
+### Scenes
+The Game itself is split into 2 scenes, the `Home` scene which acts as the introduction and built in tutorial to the game, followed by the `Immersed` scene which handles the gameplay.
+
+### Scene Transitions
+To change scenes, call the `EnterImmersed()` method in the `Trigger_Game_Start` class. By default, this is tied to a callback which occurs after the introduction sequence is complete (touching the floating Elite logo).
+
+When changing scenes, all objects in the current scene will be deleted. If developers wish for an object to persist to the next scene, the `Dont_Destroy_On_Load` script can simply be attached to the desired `GameObject` and it will be carried through to the next scene.
+
+### Other Utility Scripts
+For simplicity, some basic scripts have been created for simple and frequently used operations. These scripts simply need to be attached to the GameObject a developer wishes to have the property applied to:
+
+-	`Make_Transparent`: Reduces the alpha channel of the `GameObject`’s material to a desired value 
+-	`Respawnable`: Resets a `GameObject`’s position if it exceeds provided limits
+-	`Flash_Object`: Makes a GameObject flash at a provided interval
+-	`Flash_Text`: Makes text flash at a provided interval
+-	`Rotator`: Rotates a `GameObject` at a completely parameterised rate on all 3 Euler angles
 
 ### Miscellaneous Notes
 #### Applying Main Thread Only Operations
