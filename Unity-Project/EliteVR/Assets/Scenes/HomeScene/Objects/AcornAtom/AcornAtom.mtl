@@ -1,0 +1,78 @@
+newmtl TopCase
+d 1
+Kd 1 1 1
+map_Kd ./Maps/AcornLabel.jpg
+
+newmtl Ground
+d 1
+Kd 0 0 0
+map_Kd ./Maps/AcornLabel.jpg
+
+newmtl Ground_AcornKeyboard
+d 1
+Kd 1 1 1
+map_Kd ./Maps/AcornKbd.jpg
+
+newmtl Material_0_046001
+d 1
+Kd 1 1 1
+map_Kd ./Maps/AcornLabel.jpg
+
+newmtl AcornLeftBack
+d 1
+Kd 1 1 1
+map_Kd ./Maps/AcornBackLeft.jpg
+
+newmtl BackRight
+d 1
+Kd 1 1 1
+map_Kd ./Maps/AcornBackRight.jpg
+
+newmtl Mat_04629
+d 1
+Kd 0.50196081 0.50196081 0.50196081
+
+newmtl Mat_04628
+d 1
+Kd 0.64705884 0.50196081 0.22745098
+
+newmtl Platinum_Rough_#6
+d 1
+Kd 0.67450982 0.63921571 0.58431375
+
+newmtl Platinum_Rough_#5
+d 1
+Kd 0.67450982 0.63921571 0.58431375
+
+newmtl Anodized_Aluminum_Rough_Yellow_#2
+d 1
+Kd 0.40000001 0.20392157 0.023529412
+
+newmtl Soft_Textured_Grey_#2
+d 1
+Kd 0.14901961 0.14901961 0.14901961
+
+newmtl Default
+d 1
+Kd 0.67450982 0.63921571 0.58431375
+
+newmtl Mat_0463_032_0401_041
+d 1
+Kd 0.13333334 0.14117648 0.14901961
+
+newmtl Platinum_Rough_#6_ant_(2)
+d 1
+Kd 0.67450982 0.63921571 0.58431375
+
+newmtl Platinum_Rough_#5_ant_(2)
+d 1
+Kd 0.67450982 0.63921571 0.58431375
+
+newmtl Anodized_Aluminum_Rough_Yellow_#2_ant_(2)
+d 1
+Kd 0.40000001 0.20392157 0.023529412
+
+newmtl Soft_Textured_Grey_#2_ant_(2)
+d 1
+Kd 0.14901961 0.14901961 0.14901961
+
