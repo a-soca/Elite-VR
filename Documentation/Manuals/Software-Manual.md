@@ -286,7 +286,7 @@ Due to the architecture, it is not possible to start the game from the immersed 
 - Add a subfolder `EliteVR`
 - Copy the contents of the Unity build into this folder
 - Add a subfolder `BeebEm`
-- Follow the build instructions for BeebEm [Link](#building-and-running-the-elite-vr-beebem-fork), switching the build configuration in BeebEm to Release
+- Follow the [build instructions for BeebEm](#compiling-the-elite-vr-custom-beebem-fork), switching the build configuration in BeebEm to Release
 - Copy the `Release` folder from the BeebEm Build into this folder
 - Create a shortcut to both `BeebEm.exe` and `EliteVR.exe` and place them in the root of the release folder
 - Place the `StartEliteVR.bat` script (found in the `BeebEm-Release-Dependencies` folder in the repo root) in the root of the release folder
