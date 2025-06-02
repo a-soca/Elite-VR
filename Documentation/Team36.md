@@ -4,6 +4,6 @@
 - Felix Orme
 - Sam Maine
 - Max Saviuk
-- REDACTED
-- REDACTED
+- Haolin Zhang
+- Miguel Vazquez Naya
 - REDACTED
