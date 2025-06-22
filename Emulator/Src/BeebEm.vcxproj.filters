@@ -1,0 +1,909 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ARMulator">
+      <UniqueIdentifier>{907f08fd-6e8c-4872-89b8-9c2bd92fc8ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ARMulator">
+      <UniqueIdentifier>{7e7d31fc-0dbe-457f-854e-2c4bb8f1216e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Help Files">
+      <UniqueIdentifier>{2c6e9544-5499-4544-b881-236d1aba643a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Documents">
+      <UniqueIdentifier>{4459d047-6d52-4030-8bc7-6af92e18bdc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\zlib">
+      <UniqueIdentifier>{89a12afe-1839-4d54-928b-89cb3d3131d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\zlib">
+      <UniqueIdentifier>{22d01859-7df5-4fb9-a1ad-0ccb885e0b0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UserData">
+      <UniqueIdentifier>{c98f4a0c-e1bc-4c7f-8fd4-eca857069d8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Documents\Documents">
+      <UniqueIdentifier>{29b5506a-ed8b-449d-a25f-c4f9778205e1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="6502core.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AboutDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Arm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ArmDisassembler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AtoDConv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AviWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bcd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BeebMem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BeebWin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BeebWinDx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BeebWinIo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BeebWinPrefs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BeebWinSpeech.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Csw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugTrace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectSoundStreamer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Disc1770.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Disc8271.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Econet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExportFileDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ext1770.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FolderSelectDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IC32Latch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ide.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IP232.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardLinksDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ListView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Master512CoPro.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Music5000.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PALRom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Preferences.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Registry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenameFileDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RingBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RomConfigDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RomConfigFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rtc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sasi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scsi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectKeyDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Serial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SerialPort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SerialPortDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Socket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundStreamer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Speech.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SprowCoPro.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StringUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SysVia.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TapeControlDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TapeMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Teletext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TeletextDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TouchScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tube.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Uef.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UefState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserKeyboardDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserPortBreakoutBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserPortRTC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserVia.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Via.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Video.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XAudio2Streamer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Z80.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Z80Support.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Z80dis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMulator\armdis.cpp">
+      <Filter>Source Files\ARMulator</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMulator\armemu.cpp">
+      <Filter>Source Files\ARMulator</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMulator\arminit.cpp">
+      <Filter>Source Files\ARMulator</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMulator\armsupp.cpp">
+      <Filter>Source Files\ARMulator</Filter>
+    </ClCompile>
+    <ClCompile Include="ARMulator\thumbemu.cpp">
+      <Filter>Source Files\ARMulator</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\adler32.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\crc32.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\deflate.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\gzclose.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\gzlib.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\gzread.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\gzwrite.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\inffast.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\inflate.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\inftrees.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\trees.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\uncompr.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib\zutil.c">
+      <Filter>Source Files\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="ENetServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryAccessFacade.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSimulationFacade.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EliteFacade.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EmulatorController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EliteStreamer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="6502core.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AboutDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Arm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ArmDisassembler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMulator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AtoDConv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AviWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bcd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BeebMem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BeebWin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BeebWinPrefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Csw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugTrace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectSoundStreamer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Disc1770.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Disc8271.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Econet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExportFileDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ext1770.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FolderSelectDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IC32Latch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ide.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IP232.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardLinksDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ListView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Master512CoPro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Messages.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ML675001.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MonitorType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Music5000.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PALRom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Port.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Preferences.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Registry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenameFileDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RingBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RomConfigDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RomConfigFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rtc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sasi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scsi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectKeyDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Serial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialPort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialPortDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundStreamer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundStreamerType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Speech.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SprowCoPro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StringUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SysVia.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TapeControlDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TapeMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TarmacGlobals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Teletext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TeletextDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TouchScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tube.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Uef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UefState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UserKeyboardDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UserPortBreakoutBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UserPortRTC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UserVia.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Via.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Video.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XAudio2Streamer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Z80.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Z80mem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMulator\ansidecl.h">
+      <Filter>Header Files\ARMulator</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMulator\armdefs.h">
+      <Filter>Header Files\ARMulator</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMulator\armdis.h">
+      <Filter>Header Files\ARMulator</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMulator\armemu.h">
+      <Filter>Header Files\ARMulator</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMulator\armopts.h">
+      <Filter>Header Files\ARMulator</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMulator\armos.h">
+      <Filter>Header Files\ARMulator</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMulator\dbg_rdi.h">
+      <Filter>Header Files\ARMulator</Filter>
+    </ClInclude>
+    <ClInclude Include="ARMulator\iwmmxt.h">
+      <Filter>Header Files\ARMulator</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\crc32.h">
+      <Filter>Header Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\deflate.h">
+      <Filter>Header Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\gzguts.h">
+      <Filter>Header Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inffast.h">
+      <Filter>Header Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inffixed.h">
+      <Filter>Header Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inflate.h">
+      <Filter>Header Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\inftrees.h">
+      <Filter>Header Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\trees.h">
+      <Filter>Header Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zconf.h">
+      <Filter>Header Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zlib.h">
+      <Filter>Header Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zutil.h">
+      <Filter>Header Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="ENetServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSimulationFacade.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryAccessFacade.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EliteFacade.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EmulatorController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EliteStreamer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Help\bbcmicro.png">
+      <Filter>Help Files</Filter>
+    </Image>
+    <Image Include="..\Help\beeb.gif">
+      <Filter>Help Files</Filter>
+    </Image>
+    <Image Include="..\Help\keyboard.jpg">
+      <Filter>Help Files</Filter>
+    </Image>
+    <Image Include="..\Help\startup.jpg">
+      <Filter>Help Files</Filter>
+    </Image>
+    <Image Include="res\ADF.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ADL.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ADM.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ADS.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\BeebEm.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\CSW.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\DSD.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FSD.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\SSD.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\UEF.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Help\teletext-files.png">
+      <Filter>Help Files</Filter>
+    </Image>
+    <Image Include="..\Help\teletext-ip.png">
+      <Filter>Help Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Help\65c02copro.html">
+      <Filter>Help Files</Filter>
+    </None>
+    <None Include="..\Help\accessibility.html">
+      <Filter>Help Files</Filter>
+    </None>
+    <None Include="..\Help\armcopro.html">
+      <Filter>Help Files</Filter>
+    </None>
+    <None Include="..\Help\commandline.html">
+      <Filter>Help Files</Filter>
+    </None>
+    <None Include="..\Help\contents.html">
+      <Filter>Help Files</Filter>
+    </None>
+    <None Include="..\Help\debugger.html">
+      <Filter>Help Files</Filter>
+    </None>
+    <None Include="..\Help\disks.html">
+      <Filter>Help Files</Filter>
+    </None>
+    <None Include="..\Help\econet.html">
+      <Filter>Help Files</Filter>
+    </None>
+    <None Include="..\Help\emulation.html">
+      <Filter>Help Files</Filter>
+    </None>
+    <None Include="..\Help\faq.html">
+      <Filter>Help Files</Filter>
+    </None>
+    <None Include="..\Help\gettingstarted.html">
+      <Filter>Help Files</Filter>
+    </None>
+    <None Include="..\Help\harddisks.html">
+      <Filter>Help Files</Filter>
+    </None>
+    <None Include="..\Help\index.html">
+      <Filter>Help Files</Filter>
+    </None>
+    <None Include="..\Help\keyboard.html">
+      <Filter>Help Files</Filter>
+    </None>
+    <None Include="..\Help\m5000.html">
+      <Filter>Help Files</Filter>
+    </None>
+    <None Include="..\Help\mastercopro.html">
+      <Filter>Help Files</Filter>
+    </None>
+    <None Include="..\Help\menus.html">
+      <Filter>Help Files</Filter>
+    </None>
+    <None Include="..\Help\roms.html">
+      <Filter>Help Files</Filter>
+    </None>
+    <None Include="..\Help\rtc.html">
+      <Filter>Help Files</Filter>
+    </None>
+    <None Include="..\Help\serial.html">
+      <Filter>Help Files</Filter>
+    </None>
+    <None Include="..\Help\sources.html">
+      <Filter>Help Files</Filter>
+    </None>
+    <None Include="..\Help\speech.html">
+      <Filter>Help Files</Filter>
+    </None>
+    <None Include="..\Help\sprowcopro.html">
+      <Filter>Help Files</Filter>
+    </None>
+    <None Include="..\Help\state.html">
+      <Filter>Help Files</Filter>
+    </None>
+    <None Include="..\Help\style.css">
+      <Filter>Help Files</Filter>
+    </None>
+    <None Include="..\Help\tapes.html">
+      <Filter>Help Files</Filter>
+    </None>
+    <None Include="..\Help\teletext.html">
+      <Filter>Help Files</Filter>
+    </None>
+    <None Include="..\Help\troubleshooting.html">
+      <Filter>Help Files</Filter>
+    </None>
+    <None Include="..\Help\uninstall.html">
+      <Filter>Help Files</Filter>
+    </None>
+    <None Include="..\Help\z80copro.html">
+      <Filter>Help Files</Filter>
+    </None>
+    <None Include="..\Help\z80torch.html">
+      <Filter>Help Files</Filter>
+    </None>
+    <None Include="..\UserData\AUNMap">
+      <Filter>UserData</Filter>
+    </None>
+    <None Include="..\UserData\Default.kmap">
+      <Filter>UserData</Filter>
+    </None>
+    <None Include="..\UserData\DefaultUser.kmap">
+      <Filter>UserData</Filter>
+    </None>
+    <None Include="..\UserData\Econet.cfg">
+      <Filter>UserData</Filter>
+    </None>
+    <None Include="..\UserData\ITLogical.kmap">
+      <Filter>UserData</Filter>
+    </None>
+    <None Include="..\UserData\Logical.kmap">
+      <Filter>UserData</Filter>
+    </None>
+    <None Include="..\UserData\Phroms.cfg">
+      <Filter>UserData</Filter>
+    </None>
+    <None Include="..\UserData\Preferences.cfg">
+      <Filter>UserData</Filter>
+    </None>
+    <None Include="..\UserData\Roms.cfg">
+      <Filter>UserData</Filter>
+    </None>
+    <None Include="..\UserData\Roms_Torch.cfg">
+      <Filter>UserData</Filter>
+    </None>
+    <None Include="..\UserData\USLogical.kmap">
+      <Filter>UserData</Filter>
+    </None>
+    <None Include="res\BeebEm.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Version.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="MemoryAccessFacade.h%27" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\CHANGES.md">
+      <Filter>Documents</Filter>
+    </Text>
+    <Text Include="..\COPYRIGHT.txt">
+      <Filter>Documents</Filter>
+    </Text>
+    <Text Include="..\README.md">
+      <Filter>Documents</Filter>
+    </Text>
+    <Text Include="..\README-SPROW.txt">
+      <Filter>Documents</Filter>
+    </Text>
+    <Text Include="..\Documents\FSDFileFormat.txt">
+      <Filter>Documents\Documents</Filter>
+    </Text>
+    <Text Include="..\Documents\Ibos.txt">
+      <Filter>Documents\Documents</Filter>
+    </Text>
+    <Text Include="..\Documents\KeyMapInfo.txt">
+      <Filter>Documents\Documents</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BeebEm.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
