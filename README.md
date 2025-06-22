@@ -1,5 +1,8 @@
 ![Elite VR Logo](/Assets/Images/Readme/Elite-VR-Logo-Horizontal.png)
 
+# Download Latest Release
+You can download the latest version of Elite VR [here](https://github.com/a-soca/Elite-VR/releases/latest)
+
 # Gameplay
 [Elite VR Trailer](https://www.youtube.com/watch?v=MAL5v6riPeM)
 - The [User Manual](/Documentation/Manuals/User-Manual.md) contains installation instructions and guidance on how to play the game
