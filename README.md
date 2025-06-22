@@ -18,6 +18,8 @@ For those interested in exploring the source code of Elite, you can find a wealt
 Elite VR originated from a University group project; the original members of Team 36 can be found [here](/Documentation/Team36.md)
 
 # Developer Section
+> This repository is hosted on GitLab. If you are viewing a mirror on another platform, assets tracked with LFS will not be visible. Please view the main repository [here](https://gitlab.com/alex-soca/Elite-VR)
+
 ## Documentation
 The [Software Manual](/Documentation/Manuals/Software-Manual.md) provides an overview of the project architecture and guidance on building, running, and releasing Elite VR
 - [Building the Emulator](/Documentation/Manuals/Software-Manual.md/#compiling-the-elite-vr-custom-beebem-fork)
