@@ -16,7 +16,7 @@ public class ENet_Client : MonoBehaviour
     Host client; // The Unity node (client side)
     Address address; // The address of the server
     Peer peer; // The Emulator node (server side)
-    ENet.Event netEvent; // Object to hold data recieved from server
+    ENet.Event netEvent; // Object to hold data received from server
 
     public Elite_Position_Manager positionManager; // Used to move gameobjects
     public Explosion_Manager explosionManager; // Used to make explosions reactive to player movement
