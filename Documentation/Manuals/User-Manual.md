@@ -19,7 +19,7 @@
 Please ensure you have installed Meta Quest Link on your computer and configured either Air Link or the Link Cable prior to starting the game.
 
 
-To install EliteVR, download the latest release from the Github page [here](https://github.com/a-soca/Elite-VR/releases/latest)
+To install EliteVR, download the latest release from the Gitlab Release page [here](https://gitlab.com/alex-soca/Elite-VR/-/releases/permalink/latest)
 
 
 After the download has complete, unpack the zip file to the desired directory. To run the game, simply double click StartEliteVR.bat and allow access to the network on the Windows Firewall dialogue box. Another pop up will appear requesting to copy files to your Documents directory which you must accept.
