@@ -46,5 +46,6 @@ echo Adding Dependencies...
 ROBOCOPY "Elite-VR-Release-Dependencies/UserData" "Elite-VR-DEBUG/BeebEm/UserData" /mir
 ROBOCOPY "Elite-VR-Release-Dependencies" "Elite-VR-DEBUG" elite-compendium-bbc-micro.dsd
 ROBOCOPY "Elite-VR-Release-Dependencies" "Elite-VR-DEBUG/BeebEm" enet.dll
+ROBOCOPY "Elite-VR-Release-Dependencies" "Elite-VR-DEBUG/BeebEm" elite-compendium-bbc-micro.dsd
 ROBOCOPY "Elite-VR-Release-Dependencies" "Elite-VR-DEBUG" StartEliteVR.bat
 echo Done!

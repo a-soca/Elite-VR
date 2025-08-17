@@ -26,6 +26,7 @@ After the download has complete, unpack the zip file to the desired directory. T
 
  
 ## Basic Controls
+> Note: To enable hand tracking, you must have a Meta developer account (free). You can enable this through "Spatial Features over Meta Link" in the Beta tab of the Meta Link desktop application.
 You can find the control mapping diagrams [here](/Documentation/Manuals/Controls.md).
  
 

@@ -1,4 +1,7 @@
 # EliteVR Controls
+
+> Note: To enable hand tracking, you must have a Meta developer account (free). You can enable this through "Spatial Features over Meta Link" in the Beta tab of the Meta Link desktop application.
+
 ## Quest Controls
 ![Control Map](/Assets/Images/Controls/Quest-Controls.png)
 
